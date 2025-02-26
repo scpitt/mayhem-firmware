@@ -128,7 +128,7 @@ const NavigationView::AppList NavigationView::appList = {
     {nullptr, "Utilities", HOME, Color::cyan(), &bitmap_icon_utilities, new ViewFactory<UtilitiesMenuView>()},
     {nullptr, "Settings", HOME, Color::cyan(), &bitmap_icon_setup, new ViewFactory<SettingsMenuView>()}, 
 {"cbradio", "CB Radio", HOME, Color::green(), &bitmap_icon_cbradio, new ViewFactory<CBRadioView>()}, 
-{nullptr, "Debug", HOME, Color::light_grey(), &bitmap_icon_debug, new ViewFactory<DebugMenuView>(),},
+{nullptr, "Debug", HOME, Color::light_grey(), &bitmap_icon_debug, new ViewFactory<DebugMenuView>()},
     /* RX ********************************************************************/
 
     {"adsbrx", "ADS-B", RX, Color::green(), &bitmap_icon_adsb, new ViewFactory<ADSBRxView>()},
