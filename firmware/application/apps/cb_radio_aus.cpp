@@ -54,4 +54,9 @@ void exit_cb_radio_app() {
 }
 
 // Register the app in the menu
+void setup_cb_radio_app() {
+    display_status("CB Radio App Loaded");
+    select_channel(1);  // Start on Channel 1
+}
+
 REGISTER_APP(cb_radio_app, "CB Radio Australia", setup_cb_radio_app, "cb_radio_aus.png");
