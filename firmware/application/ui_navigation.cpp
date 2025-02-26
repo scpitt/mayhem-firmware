@@ -87,6 +87,9 @@
 #include <locale>
 #include <codecvt>
 
+#include "ui_cb_radio.hpp"
+
+
 using portapack::receiver_model;
 using portapack::transmitter_model;
 namespace pmem = portapack::persistent_memory;
